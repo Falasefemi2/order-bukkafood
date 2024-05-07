@@ -13,6 +13,11 @@ func main() {
 
 	welcome(customerName)
 	order()
+	displayGeneratingBill()
+	generateBill()
+
+	saveRecipt()
+	printFinalBill()
 
 	bye(customerName)
 }

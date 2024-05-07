@@ -46,6 +46,7 @@ func order() {
 			fmt.Printf("\nYou just ordered %v %v which amounts to ₦%v.\n", noOfPlate, choiceName, foodPrice*float64(noOfPlate))
 			orderTillNow()
 		}
+		fmt.Println()
 	}
 }
 
